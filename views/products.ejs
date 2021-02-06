@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Nodepop | Productos
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="products-title">
+    Productos
+  </h1>
+  <div class="products-container">
+    <% resultSet.forEach(product=> { %>
+      <div class="product">
+        <h2>
+          <%= product.name %>
+        </h2>
+        <img src="/images/products/<%= product.image%>.jpg" alt="">
+        <% if (product.selling) { %>
+          <h3>Se vende</h3>
+          <% } else{ %>
+            <h3>Se busca</h3>
+            <% } %>
+              <h4>Precio: <%= product.price %>€</h4>
+
+              <ul class="tags">
+                <% product.tags.forEach(tag=> { %>
+                  <li>
+                    <%= tag %>
+                  </li>
+                  <% });%>
+              </ul>
+      </div>
+      <% });%>
+  </div>
+</body>
+
+</html>

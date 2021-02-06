@@ -1,0 +1,81 @@
+{
+    "products": [
+        {
+            "name": "Silla Berlin",
+            "selling": true,
+            "price": 80,
+            "image": "silla_berlin",
+            "tags": [
+                "work",
+                "lifestyle"
+            ]
+        },
+        {
+            "name": "Opel Corsa",
+            "selling": false,
+            "price": 18000,
+            "image": "opel_corsa",
+            "tags": [
+                "motor"
+            ]
+        },
+        {
+            "name": "Tesla Model 3",
+            "selling": true,
+            "price": 49980,
+            "image": "tesla_3",
+            "tags": [
+                "motor",
+                "lifestyle"
+            ]
+        },
+        {
+            "name": "iPhone X",
+            "selling": false,
+            "price": 730,
+            "image": "iphone_x",
+            "tags": [
+                "mobile",
+                "lifestyle"
+            ]
+        },
+        {
+            "name": "Samsung Galaxy S21",
+            "selling": true,
+            "price": 859,
+            "image": "galaxy_s21",
+            "tags": [
+                "mobile",
+                "lifestyle"
+            ]
+        },
+        {
+            "name": "Google Pixel 4a",
+            "selling": true,
+            "price": 346,
+            "image": "google_pixel",
+            "tags": [
+                "mobile",
+                "lifestyle"
+            ]
+        },
+        {
+            "name": "Bolígrafo económico",
+            "selling": true,
+            "price": 0.29,
+            "image": "boligrafo_economico",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "Carpeta Dalgox",
+            "selling": false,
+            "price": 3.95,
+            "image": "carpeta_dalgox",
+            "tags": [
+                "work"
+            ]
+        }
+    ]
+}
